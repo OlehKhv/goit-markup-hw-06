@@ -793,7 +793,7 @@ ol {
   transition: background-color var(--anim-time), fill var(--anim-time);
 }
 
-.form-field.checkbox input:checked + .checkbox-item {
+.checkbox input:checked + .checkbox-item {
   background-color: var(--active-color, #404bbf);
   fill: var(--accent-color, #f4f4fd);
 }
@@ -805,12 +805,12 @@ ol {
   color: var(--customers-color, #8e8f99);
 }
 
-.form-field.checkbox a {
+.checkbox a {
   color: var(--logo-color, #4d5ae5);
   text-decoration-skip-ink: none;
 }
 
-.form-field.checkbox label {
+.checkbox label {
   margin: 0;
 }
 
